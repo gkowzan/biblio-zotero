@@ -7,14 +7,14 @@ Retrieve and insert BibTeX records from various sources by using [Zotero transla
 Users of [straight.el](https://github.com/raxod502/straight.el) can use the following recipe:
 
 ``` emacs-lisp
-(straight-use-package '(:type :git :host github :repo "gkowzan/biblio-zotero"))
+(straight-use-package '(:type git :host github :repo "gkowzan/biblio-zotero"))
 ```
 
 or with [use-package](https://github.com/jwiegley/use-package) integration:
 
 ``` emacs-lisp
 (use-package biblio-zotero
-  :straight (biblio-zotero type git :host github :repo "gkowzan/biblio-zotero")
+  :straight (biblio-zotero :type git :host github :repo "gkowzan/biblio-zotero")
   :commands (biblio-zotero-insert-bibtex))
 ```
 
