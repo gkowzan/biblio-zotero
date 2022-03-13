@@ -39,7 +39,3 @@ docker run -d -p 1969:1969 --restart-always --rm --name translation-server zoter
 ```
 
 The `--restart-always` flag ensures that the server will start with docker.
-
-# See also
-
-[ebib-zotero](https://github.com/gkowzan/ebib-zotero) uses this package to add new entries directly to your ebib database.
